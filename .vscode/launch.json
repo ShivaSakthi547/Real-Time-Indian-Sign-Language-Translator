@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "SignBridge: Start Web App (FastAPI + React)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/run_web.py",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "SignBridge: Start Desktop App (OpenCV)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/run.py",
+      "console": "integratedTerminal"
+    }
+  ]
+}
